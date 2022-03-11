@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+{% block content %}
+        <div class="head">
+            <h1><b>LIBRARY BOOK REISSUING </b></h1>
+        </div>
+        <div class="stu">
+            <h1><b>NAME:   {{data['Name']}}<B></h1>
+            <h1>ROLL NO    {{data['Roll_No']}}</h1>
+
+        </div>
+        <div class="book">
+        <table border="1px">
+            <tr>
+                <th>BOOK</th>
+                <th>SERIAL NO.</th>
+                <th>DATE OF ISSSUE</th>
+                <th>DATE OF RETURN</th>
+                <th>NO.OF CUPONE</th>
+              </tr>
+              <!-- {% for i in book %} -->
+              {% if data['BOOK1'] %}
+              <tr>
+                <td>{{data['BOOK1']['BOOK_ISSUE']}}</td>
+                <td>{{data['BOOK1']['SERIAL_ISSUE']}}</td>
+                <td>{{data['BOOK1']['DATE_ISSUE']}}</td>
+                <td>{{data['BOOK1']['DATE_RETURN']}}</td>
+                <td><button>{{data['NOC']}}</button><be></td> 
+              </tr>
+              {% endif %}
+              <!-- {% endfor %} -->
+
+        </table>
+        </div>
+
+        <link rel="stylesheet" href="{{ url_for  ('static' , filename='css/details.css')}}">
+    </body>
+{% endblock %}

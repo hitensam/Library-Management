@@ -1,0 +1,22 @@
+.head
+{
+    text-align: center;
+    margin-top: 50px;
+    box-shadow: 5px     2px 8px 1px #888888;
+    width: 30%;
+    margin-left: 500px;
+    background-color: antiquewhite;
+}
+.book
+{
+    text-align: center;
+    margin-top: 50px;
+    box-shadow: 5px 2px 8px 1px #888888;
+    width: 30%;
+    margin-left: 500px;
+    background-color: antiquewhite;
+}
+/* .body
+{
+    background-image: url("D:\Desktop");
+} */
