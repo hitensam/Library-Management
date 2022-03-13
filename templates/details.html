@@ -4,34 +4,36 @@
             <h1><b>LIBRARY BOOK REISSUING </b></h1>
         </div>
         <div class="stu">
-            <h1><b>NAME:   {{data['Name']}}<B></h1>
-            <h1>ROLL NO    {{data['Roll_No']}}</h1>
+            <h1><b>NAME  :   {{data['Name']}}<B></h1>
+            <h1>ROLL NO. :    {{data['Roll_No']}}</h1>
 
         </div>
         <div class="book">
-        <table border="1px">
+        <table> <!--border="1px"-->
             <tr>
                 <th>BOOK</th>
                 <th>SERIAL NO.</th>
                 <th>DATE OF ISSSUE</th>
                 <th>DATE OF RETURN</th>
-                <th>NO.OF CUPONE</th>
+                <th>NO.OF COUPON</th>
               </tr>
-              <!-- {% for i in book %} -->
-              {% if data['BOOK1'] %}
+              {% for i in book %}
+              {% if data[i] %}
               <tr>
-                <td>{{data['BOOK1']['BOOK_ISSUE']}}</td>
-                <td>{{data['BOOK1']['SERIAL_ISSUE']}}</td>
-                <td>{{data['BOOK1']['DATE_ISSUE']}}</td>
-                <td>{{data['BOOK1']['DATE_RETURN']}}</td>
+                <td>{{data[i]['BOOK_ISSUE']}}</td>
+                <td>{{data[i]['SERIAL_ISSUE']}}</td>
+                <td>{{data[i]['DATE_ISSUE']}}</td>
+                <td>{{data[i]['DATE_RETURN']}}</td>
                 <td><button>{{data['NOC']}}</button><be></td> 
               </tr>
               {% endif %}
-              <!-- {% endfor %} -->
+              {% endfor %}
 
         </table>
         </div>
-
+        <form method="post" action="">
+            <input type="submit" value="LOGOUT" name="logout">
+        </form>
         <link rel="stylesheet" href="{{ url_for  ('static' , filename='css/details.css')}}">
     </body>
 {% endblock %}
