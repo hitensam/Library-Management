@@ -6,6 +6,7 @@
         <div class="stu">
             <h1><b>NAME  :   {{data['Name']}}<B></h1>
             <h1>ROLL NO. :    {{data['Roll_No']}}</h1>
+            <h1>NO. OF COUPONS :    {{data['NOC']}}</h1>
 
         </div>
         <div class="book">
@@ -24,7 +25,9 @@
                 <td>{{data[i]['SERIAL_ISSUE']}}</td>
                 <td>{{data[i]['DATE_ISSUE']}}</td>
                 <td>{{data[i]['DATE_RETURN']}}</td>
-                <td><button>{{data['NOC']}}</button><be></td> 
+                <form method="post" action="">
+                <td><input type="submit" value="{{data[i]}}">RENEW</button><be></td>
+                </form> 
               </tr>
               {% endif %}
               {% endfor %}
