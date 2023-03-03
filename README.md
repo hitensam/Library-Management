@@ -1,10 +1,8 @@
-![Main Photo](https://user-images.githubusercontent.com/48243256/222513968-d26f14c6-7eb8-4414-8bf9-0aff5e905b0a.jpeg)
+# LIBRARY MANAGEMENT PROJECT (A portal for reissuing library books.)
 
-![Inside main](https://user-images.githubusercontent.com/48243256/222518036-cb34fd2f-60f9-4922-b4f9-1be1837dd30d.png)
+![demo_image](https://user-images.githubusercontent.com/30778907/222713574-d238f648-ed06-4000-85d3-ae3b97e307b4.PNG)
 
-# PIET LIBRARY PROJECT
-
-- **Python  Multiplatform** Library Managemeent  , recommended for  **Schools, Colleges ,University  and Public and Private Library**.
+- **Python  Multiplatform** Library Management, recommended for  **Schools, Colleges ,University  and Public and Private Library**.
 
 ***Encourage this repo by giving it a Star⭐ .***
 
@@ -12,13 +10,36 @@ Usage
 =====
 
 * Admin can create new users. 
-* Everytime a student issues a book an otp is sent to his/her registered mobile number.
+* Reissuing a book does not require the student to visit the library (There is a maximum (reissuing and duration) after which a library visit is mandated.)
 
-![opt](https://user-images.githubusercontent.com/48243256/222518608-fbfe58e6-0b7a-4b02-b215-23d5799854de.png)
+STEPS
+=====
+* The user must enter his/her roll number and mobile number registered by the administrator.
 
-* Currently a student can max issue 3 books at a time . 
-* With each issue of new book , number of coupons automatically decreased. 
-* To re-issue a book , click the book name under-re-issue column . 
+![details_entered](https://user-images.githubusercontent.com/30778907/222707878-9619e84d-e607-425a-88e1-95e83888c854.PNG)
+
+* The registered user receives a One Time Password (OTP) to access the portal and reissue the book.
+
+![otp_entered](https://user-images.githubusercontent.com/30778907/222708550-a1d24cc4-a027-40f7-b7be-92014346e020.PNG)
+
+* Voilà, the user has entered the system.
+
+![user_entered](https://user-images.githubusercontent.com/30778907/222710099-be2f2830-de23-44c9-aa04-dfd64e52c089.PNG)
+
+* Reissuing the book can be done by clicking on the button (in the reissue column).
+
+![book_reissued](https://user-images.githubusercontent.com/30778907/222710929-faee9195-d479-4058-89f8-1e2268bba678.PNG)
+
+* With each reissue the number of coupons automatically decreased. 
+
+![coupon_decreased](https://user-images.githubusercontent.com/30778907/222711588-5e648cdd-d92e-4e7c-b373-4b8738acb081.PNG)
+
+* The user must physically visit the library if the coupons have been exhausted.
+
+![coupons_exhausted](https://user-images.githubusercontent.com/30778907/222712534-5179c29f-2ef6-4dc9-a2a8-b56193669cac.PNG)
+
+* A user can log out of the portal after using it by clicking the LOGOUT button at the bottom of the page.
+
 
 
 
