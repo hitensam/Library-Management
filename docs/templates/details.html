@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <title>Details</title>
+    </head>
+<!-- FLASH MESSAGE -->
+<h1>Messages Shown Here.</h1>
+<h1 align="center">DEMO</h1>
+        <div class="head">
+            <h1><b>LIBRARY BOOK REISSUING </b></h1>
+        </div>
+        <div class="stu">
+            <h1><b>NAME  :   James Bond<B></h1>
+            <h1>ROLL NO. :    007</h1>
+            <h1>NO. OF COUPONS :    3</h1>
+
+        </div>
+        <div class="book">
+        <table> <!--border="1px"-->
+            <tr>
+                <th>BOOK</th>
+                <th>SERIAL NO.</th>
+                <th>DATE OF ISSUE</th>
+                <th>DATE OF REISSUE</th>
+                <th>DATE OF RETURN</th>
+                <th>REISSUE</th>
+              </tr>
+              <tr>
+                <td>BOOK_NAME</td>
+                <td>SERIAL_NUMBER</td>
+                <td>DATE_ISSUED</td>
+                <td>DATE_REISSUED</td>
+                <td>DATE_RETURN</td>
+                <!-- {% set select_book = "i" %} -->
+                <form method="post" action="">
+                <td><input type="submit" name="select_book" value="BOOK1"></td>
+                </form> 
+              </tr>
+
+        </table>
+        </div>
+        <form method="post" action="./index.html">
+            <input type="submit" value="LOGOUT" name="logout">
+        </form>
+        <link rel="stylesheet" href="../static/css/details.css">
+    </body>
+    </html>
