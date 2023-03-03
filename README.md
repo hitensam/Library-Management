@@ -1,6 +1,6 @@
-<h1 align="center">Library Management System </h1> 
+<h1 align="center">Library Management System</h1>
 
-### A portal for reissuing library books!!
+<h2 align="center">Portal for Reissuing Library Books</h2>
 
 <img src="https://user-images.githubusercontent.com/30778907/222713574-d238f648-ed06-4000-85d3-ae3b97e307b4.PNG" width="700px" alt="demo_image">
 
