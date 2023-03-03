@@ -1,6 +1,8 @@
-# Library Management System
+<h1 align="center">Library Management System </h1> 
 
-<img src="https://user-images.githubusercontent.com/30778907/222713574-d238f648-ed06-4000-85d3-ae3b97e307b4.PNG" width="700px" alt="">
+### A portal for reissuing library books!!
+
+<img src="https://user-images.githubusercontent.com/30778907/222713574-d238f648-ed06-4000-85d3-ae3b97e307b4.PNG" width="700px" alt="demo_image">
 
 - **Python  Multiplatform** Library Management System, recommended for **Schools, Universities, and Public & Private Libraries**.
 
@@ -16,27 +18,27 @@ Steps
 =====
 * The user must enter his/her roll number and mobile number registered by the administrator.
 
-<img src="https://user-images.githubusercontent.com/30778907/222707878-9619e84d-e607-425a-88e1-95e83888c854.PNG" width="700px" alt="">
+<img src="https://user-images.githubusercontent.com/30778907/222707878-9619e84d-e607-425a-88e1-95e83888c854.PNG" width="700px" alt="details_entered">
 
 * The registered user receives a One Time Password (OTP) to access the portal and reissue the book.
 
-<img src="https://user-images.githubusercontent.com/30778907/222708550-a1d24cc4-a027-40f7-b7be-92014346e020.PNG" width="700px" alt="">
+<img src="https://user-images.githubusercontent.com/30778907/222708550-a1d24cc4-a027-40f7-b7be-92014346e020.PNG" width="700px" alt="otp_entered">
 
 * Voilà, the user has entered the system.
 
-<img src="https://user-images.githubusercontent.com/30778907/222710099-be2f2830-de23-44c9-aa04-dfd64e52c089.PNG" width="700px" alt="">
+<img src="https://user-images.githubusercontent.com/30778907/222710099-be2f2830-de23-44c9-aa04-dfd64e52c089.PNG" width="700px" alt="user_entered">
 
 * Reissuing the book can be done by clicking on the button (in the reissue column).
 
-<img src="https://user-images.githubusercontent.com/30778907/222710929-faee9195-d479-4058-89f8-1e2268bba678.PNG" width="700px" alt="">
+<img src="https://user-images.githubusercontent.com/30778907/222710929-faee9195-d479-4058-89f8-1e2268bba678.PNG" width="700px" alt="book_reissued">
 
 * With each reissue the number of coupons automatically decreased. 
 
-<img src="https://user-images.githubusercontent.com/30778907/222711588-5e648cdd-d92e-4e7c-b373-4b8738acb081.PNG" width="700px" alt="">
+<img src="https://user-images.githubusercontent.com/30778907/222711588-5e648cdd-d92e-4e7c-b373-4b8738acb081.PNG" width="700px" alt="coupon_decreased">
 
 * The user must physically visit the library if the coupons have been exhausted.
 
-<img src="https://user-images.githubusercontent.com/30778907/222712534-5179c29f-2ef6-4dc9-a2a8-b56193669cac.PNG" width="700px" alt="">
+<img src="https://user-images.githubusercontent.com/30778907/222712534-5179c29f-2ef6-4dc9-a2a8-b56193669cac.PNG" width="700px" alt="coupons_exhausted">
 
 * A user can log out of the portal after using it by clicking the LOGOUT button at the bottom of the page.
 
@@ -60,7 +62,7 @@ Developed By :
 
 * [Kartikey](https://github.com/kartikeysh)
 
-* [Hiten Samalia](https://github.com/hitensam)
+* [Hiten Samalia](https://hitensamalia.co)
 
 * [Uday Palecha](https://github.com/udaypalecha)
 
