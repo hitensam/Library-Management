@@ -46,7 +46,7 @@ Steps
 
 
 ### Want to discuss?💬
-Have any questions, doubts or want to present your opinions, views? You're always welcome. You can [(paste link for discussion)]
+Have any questions, doubts or want to present your opinions, views? You're always welcome.
 
 
 
