@@ -20,9 +20,16 @@ Steps
 
 <img src="https://user-images.githubusercontent.com/30778907/222707878-9619e84d-e607-425a-88e1-95e83888c854.PNG" width="700px" alt="details_entered">
 
-* The registered user receives a One Time Password (OTP) to access the portal and reissue the book.
+* The user receives a One Time Password (OTP) on his/her mobile number to access the portal
+
+
+<img src="https://user-images.githubusercontent.com/30778907/226445752-14f2d381-a370-4e2d-a56a-fd46b1f5133c.png" width="500px" alt="otp_entered">
+
+(OTP RECEIVED)
 
 <img src="https://user-images.githubusercontent.com/30778907/222708550-a1d24cc4-a027-40f7-b7be-92014346e020.PNG" width="700px" alt="otp_entered">
+
+(OTP ENTERED)
 
 * Voilà, the user has entered the system.
 
@@ -57,7 +64,7 @@ All contributions are welcome, from code to documentation to graphics to design 
 
 
 Credits
----
+-------
 Developed By :
 
 * [Kartikey](https://github.com/kartikeysh)
