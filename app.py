@@ -24,6 +24,7 @@ def start():
 
         try:
             retrive_data = dict(fb.db.child("users").child(str(roll)).get().val())
+            print(retrive_data)
             session['retrive_data'] = retrive_data
         except:
             flash ('ENTER A VALID ROLL NUMBER')
@@ -54,9 +55,17 @@ def start():
                 flash ('ENTER VAILD NUMBER')
                 return render_template('form.html', title = 'home')
             else:
-                print("FAIL")
-                flash ('ENTER VAILD DETAILS')
-                return render_template('form.html', title = 'home')
+                print(verification)
+                session['roll']= roll
+                session['verification'] = verification
+                session['count']= 0 #modify count here fix count session
+                # print("VERIFY : ", verification)
+                flash("SMS NOT SENT, SEE ON TERMINAL")
+                return redirect(url_for('start1')) #url_for('start1', VERIFY= verification, DATA=roll))
+
+                # print("FAIL")
+                # flash ('ENTER VAILD DETAILS')
+                # return render_template('form.html', title = 'home')
         else:
             flash ('YOU ARE NOT ARE REGISTERED.')
             return render_template('form.html', title = 'home')
