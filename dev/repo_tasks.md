@@ -1,0 +1,11 @@
+- [ ] create /dev folder and standard list of adds
+- [ ] find 8 levels of code
+- [ ] link 8 levels of code to tests to check for presence
+- [ ] https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/about-task-lists
+- [ ] write code to test a repo for 8 levels and generate score
+- [ ] a sample score is 1.8750 usually a 4 digit code, higher is better
+- [ ] review https://github.
+- [ ] create script to put repo_tasks on README.md
+- [ ] review https://github.com/octo-org/octo-repo/issues/740
+- [ ] find code from Data_Workbench to generate new repo code
+- [ ] Add delight to the experience when all tasks are complete :tada:

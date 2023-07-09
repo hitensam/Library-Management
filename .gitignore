@@ -1,2 +1,4 @@
 __pycache__/
 #To ignore cache file.
+/venv
+/dev
