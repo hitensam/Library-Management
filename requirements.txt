@@ -5,7 +5,7 @@ click==8.0.4
 cryptography==36.0.1
 DateTime==4.4
 Deprecated==1.2.13
-Flask==2.0.3
+Flask==2.2.5
 gcloud==0.18.3
 googleapis-common-protos==1.55.0
 gunicorn==20.1.0
