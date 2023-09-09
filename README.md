@@ -1,5 +1,22 @@
 <h1 align="center">Library Management System</h1>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/datatalking/Library-Management/static/images/online-library-symbol.
+jpg">
+</p>
+<h2 align="center">AdMob support for Kivy</h2>
+<p align="center">
+  <a href="https://travis-ci.com/MichaelStott/KivMob"><img alt="Build Status" src="https://travis-ci.com/MichaelStott/KivMob.svg?branch=master"></a>
+  <a href="https://www.python.org/downloads/release/python-270/"><img alt="Python Version" src="https://img.shields.io/badge/python-2.7|3.7-green.svg"></a>
+  <a href="https://pepy.tech/project/kivmob"><img alt="Code Climate" src="https://pepy.tech/badge/kivmob"></a>
+  <a href="https://codeclimate.com/github/MichaelStott/KivMob/maintainability"><img alt="Code Climate" src="https://api.codeclimate.com/v1/badges/add8cd9bd9600d898b79/maintainability"></a>
+  <a href="https://github.com/python/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
+  <a href="http://kivmob.com"><img alt="docs" src="https://img.shields.io/static/v1?label=docs&message=passing&color=blue"/></a>
+  <!--
+  <a href="https://discordapp.com/channels/698610163254558804"><img alt="Discord" src="https://img.shields.io/discord/698610163254558804"></a>
+  -->
+</p>
+
 <h2 align="center">Portal for Reissuing Library Books</h2>
 
 <img src="https://user-images.githubusercontent.com/30778907/222713574-d238f648-ed06-4000-85d3-ae3b97e307b4.PNG" width="700px" alt="demo_image">
