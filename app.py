@@ -1,3 +1,6 @@
+# SOURCE https://flask.palletsprojects.com/en/3.0.x/quickstart/#
+# run by python app.py from terminal of project root
+
 from pickle import GET
 from traceback import print_tb
 from unicodedata import name
@@ -6,9 +9,11 @@ import db as fb
 import requests as req
 import random
 import IST_Time as TIME
-from dotenv import load_dotenv
 
-load_dotenv()
+# from dotenv import load_dotenv
+
+
+# load_dotenv()
 
 
 app = Flask(__name__)

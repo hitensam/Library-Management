@@ -3,10 +3,14 @@ from setuptools import setup
 setup(
     name="Library-Management",
     version="",
-    packages=[""],
+    packages=["wsgi"],
     url="",
     license="",
-    author="andrewschell",
+    author="Kartikey",
+    "Hiten Samalia",
+    "Uday Palecha",
+    "Bhavay Luthra",
+    "Andrew Schell",
     author_email="",
     description="",
 )
