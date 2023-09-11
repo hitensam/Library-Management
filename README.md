@@ -1,8 +1,7 @@
 <h1 align="center">Library Management System</h1>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/datatalking/Library-Management/static/images/online-library-symbol.
-jpg">
+  <img src="https://raw.githubusercontent.com/datatalking/Library-Management/blob/MacOS/static/images/online-library-symbol.jpg">
 </p>
 <h2 align="center">AdMob support for Kivy</h2>
 <p align="center">
